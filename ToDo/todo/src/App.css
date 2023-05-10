@@ -1,0 +1,42 @@
+.mainCard {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+}
+
+.mainCard-input {
+  padding: 10px 5px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.mainCard-button {
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.mainCard-button:hover {
+  background-color: rgba(0, 0, 255, 0.832);
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.card-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 350px;
+  border: 1px solid #000;
+  border-radius: 30px;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
